@@ -9,3 +9,5 @@ Continues [Week 1](https://github.com/flappybird69/week1-financial-analysis-ioan
 The holdout begins on 2024-10-01. Input data and the reused course functions are embedded in the notebook, so it runs offline. Use a Python 3 kernel and **Restart & Run All** after installing the dependencies. Results and charts regenerate in the current working directory.
 
 The notebook contains the visible results and interpretations. Evaluation-rule FAIL states identify unsupported model claims; they are not execution errors. The lecturer’s unexecuted synthetic SPY reference was regenerated separately from the real five-asset analysis.
+
+Numerical fit checks verify convergence, finite parameters and valid ARMA roots for every accepted fit, retry failed optimizations, and exclude unresolved candidates from BIC selection. The ACF/PACF figures use readable vertical scales, and their values agree with independent covariance and Yule–Walker calculations. Every walk-forward refit block and every variance forecast have also been checked independently.
